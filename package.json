@@ -1,5 +1,8 @@
 {
-  "name": "@thaddeusjiang/root-config",
+  "name": "@priority-matrix/root-config",
+  "author": "Thaddeus Jiang",
+  "version": "0.0.1",
+  "license": "MIT",
   "scripts": {
     "start": "webpack serve --port 9000 --env isLocal",
     "lint": "eslint src --ext js,ts,tsx",
@@ -46,5 +49,5 @@
     "single-spa": "^5.9.3",
     "single-spa-layout": "^1.6.0"
   },
-  "types": "dist/thaddeusjiang-root-config.d.ts"
+  "types": "dist/priority-matrix-root-config.d.ts"
 }

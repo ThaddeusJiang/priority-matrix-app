@@ -3,10 +3,11 @@ const singleSpaDefaults = require("webpack-config-single-spa-ts");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = (webpackConfigEnv, argv) => {
-  const orgName = "thaddeusjiang";
+  const orgName = "priority-matrix";
+  const projectName = "root-config";
   const defaultConfig = singleSpaDefaults({
     orgName,
-    projectName: "root-config",
+    projectName,
     webpackConfigEnv,
     argv,
     disableHtmlGeneration: true,
